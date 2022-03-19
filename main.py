@@ -34,10 +34,10 @@ templates = Jinja2Templates(directory="templates")
 
 #Carga de los modelos
 
-with open("models/sentiment_model.pkl", "rb") as f:
+with open("sentiment_model.pkl", "rb") as f:
     sentiment_classifier = joblib.load(f)
 
-with open("models/calification_model.pkl", "rb") as f:
+with open("calification_model.pkl", "rb") as f:
     calification_classifier = joblib.load(f)
 
 
