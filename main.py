@@ -44,9 +44,6 @@ with open("calification_model.pkl", "rb") as f:
 nltk.download('stopwords')
 
 
-
-
-
 def limpiado_de_texto(texto, remove_stop_words=True, stemming_words=True):
     
     # Eliminamos los caracteres especiales
